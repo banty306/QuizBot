@@ -17,3 +17,7 @@ Steps to run the project without Docker
 3. Install and run redis, and update the `CHANNEL_LAYERS` config in `settings.py`, if required.
 4. In the project root run `python manage.py runserver`
 4. Go to `127.0.0.1:8000` to view the chatbot
+
+Running Window
+1. ![Screenshot](static/admin/img/Screenshot%202023-08-16%20at%2012.36.18%20AM.png)
+
