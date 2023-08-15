@@ -148,6 +148,7 @@
         console.log("data", data)
         let messageText;
         if (isUser) {
+            {#let text = JSON.parse(data)#}
             messageText = `
             <li class="message ${messageClass}">
                 <div class="message-text">${data}</div>
